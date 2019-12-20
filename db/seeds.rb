@@ -1,10 +1,9 @@
 amanda = User.create(name: "Amanda")
 logan = User.create(name: "Logan")
 
-
-
 new_york_city = City.create(name: 'NYC')
 fidi = Neighborhood.create(name: 'Fi Di', city: new_york_city)
+brighton_beach = Neighborhood.create(name: 'Brighton Beach', city: nyc
 
 listing = Listing.create(
         address: '123 Main Street',
