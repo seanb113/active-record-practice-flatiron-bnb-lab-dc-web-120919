@@ -12,7 +12,7 @@ listing = Listing.create(
         description: "My apartment is great. there's a bedroom. close to subway....blah blah",
         price: 50.00,
         neighborhood: fidi,
-        host: user
+        host: amanda
       )
 
 reservation = Reservation.create(
